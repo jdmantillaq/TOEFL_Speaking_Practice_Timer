@@ -1,9 +1,9 @@
 # TOEFL Speaking Practice Timer
 
-This script provides a simple tool for practicing the first type of questions of the TOEFL speaking section. It randomly selects questions from a file, prompts the user to answer, and uses a countdown timer to manage preparation and answering time. The script also supports key commands for skipping questions and exiting the program.
+This script provides a simple tool for practicing the first type of questions of the TOEFL speaking section, the **Independent Task**. It randomly selects questions from a file, prompts the user to answer, and uses a countdown timer to manage preparation and answering time. The script also supports key commands for skipping questions and exiting the program.
 
 
-# Question One – Independent Speaking
+## Question One – Independent Speaking
 TOEFL Speaking question 1 is the independent TOEFL speaking question.  It’s also called the “personal choice” question.  You’ll give your opinion on a subject likely related to school, work or some other part of life.
 
 This question asks if you agree or disagree with a given statement.  That might look like this:
