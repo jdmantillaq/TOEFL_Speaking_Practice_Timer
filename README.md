@@ -1,6 +1,23 @@
 # TOEFL Speaking Practice Timer
 
-This script provides a simple tool for practicing TOEFL speaking questions. It randomly selects questions from a file, prompts the user to answer, and uses a countdown timer to manage preparation and answering time. The script also supports key commands for skipping questions and exiting the program.
+This script provides a simple tool for practicing the first type of questions of the TOEFL speaking section. It randomly selects questions from a file, prompts the user to answer, and uses a countdown timer to manage preparation and answering time. The script also supports key commands for skipping questions and exiting the program.
+
+
+# Question One – Independent Speaking
+TOEFL Speaking question 1 is the independent TOEFL speaking question.  It’s also called the “personal choice” question.  You’ll give your opinion on a subject likely related to school, work or some other part of life.
+
+This question asks if you agree or disagree with a given statement.  That might look like this:
+
+* “State whether you agree or disagree with the following statement. Then explain your reasons using specific details in your argument. Teachers should assign daily homework to students.”
+
+Sometimes, the question requires you to pick between two opposing options.  In that case, it will look something like this:
+
+* “There are many different approaches to academic studies, and all of them have specific benefits. Do you prefer to study for tests in a group, or to study alone? Include details and examples to support your explanation.”
+
+Lastly, you might get a question that refers to a hypothetical situation.  These questions are rare.  They look like this:
+
+* “Some companies have rules that forbid employees from using personal cell phones during working hours. Do you think this is a good idea? Why or why not? Use specific reasons and examples to support your answer.”
+
 
 ## Features
 
@@ -37,7 +54,7 @@ Copy code
     
     Copy code
     
-    `python script_name.py` 
+    `python toelf_practice.py` 
     
 3.  **Interact with the script**:
     
