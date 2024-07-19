@@ -18,8 +18,6 @@ This script provides a simple tool for practicing TOEFL speaking questions. It r
 
 You can install the required libraries using pip:
 
-sh
-
 Copy code
 
 `pip install pandas playsound pynput` 
@@ -36,8 +34,6 @@ Copy code
     -   Ensure `toefl_speaking_q1.txt` contains your TOEFL speaking questions, one per line.
     -   Place the `level-up.mp3` sound file in the same directory as the script.
 2.  **Run the script**:
-    
-    sh
     
     Copy code
     
