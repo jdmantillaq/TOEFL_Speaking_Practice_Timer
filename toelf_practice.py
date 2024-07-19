@@ -38,9 +38,14 @@ def countdown_timer(seconds, sound_file):
 def ask_question(df):
     global exit_program
     n_questions = len(df)
+    
+    idx_list = []
 
     while not exit_program:
         idx = random.randint(0, n_questions - 1)
+        if idx in idx_list:
+            continue
+        idx_list.append(idx)
         question = df.iloc[idx, 0]
 
         # ANSI escape code for yellow
@@ -52,15 +57,15 @@ def ask_question(df):
         print('-' * 150)
         print('\n')
 
-        user_input = input("\t\tPress 'Enter' to continue with the question.\n"
-                           "\t\tWrite 'next' to skip the current question.\n"
-                           "\t\tOr press 'Escape' to exit the code: "
+        user_input = input("\t\tPress 'Enter' to continue answering the question.\n"
+                           "\t\tWrite 'n' and finish with 'Enter' to skip the current question.\n"
+                           "\t\tOr press 'Escape' and finish with 'Enter' to exit the code: "
                            ).strip().upper()
 
         if user_input == 'EXIT' or user_input == 'SALIR':
             break
 
-        if user_input == 'NEXT':
+        if user_input == 'NEXT' or user_input == 'N':
             continue
 
         if user_input == '':
